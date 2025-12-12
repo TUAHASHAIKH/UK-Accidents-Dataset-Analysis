@@ -1318,21 +1318,6 @@ elif page == "Comprehensive Analysis":
     
     st.markdown("---")
     
-    # Expected Outcomes
-    st.success("""
-    ### Expected Outcomes (3-Year Horizon):
-    
-    **Lives Saved:** 600-800 fatal accidents prevented annually  
-    **Injuries Avoided:** 15,000-20,000 fewer casualties per year  
-    **Economic Savings:** £400-600M annually (healthcare, lost productivity, infrastructure damage)  
-    **Quality of Life:** Reduced commute stress for 10M+ daily commuters  
-    **Environmental:** 15% reduction in rush hour congestion = lower emissions  
-    
-    ---
-    
-    **ROI:** Every £1 invested saves £4-6 in accident costs, healthcare, and productivity
-    """)
-    
     # Call to Action
     st.markdown("---")
     st.markdown("## Call to Action")
