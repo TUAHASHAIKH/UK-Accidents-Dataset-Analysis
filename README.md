@@ -65,14 +65,17 @@ streamlit run streamlit_dashboard.py
 ```
 UK-Accidents-Dataset-Analysis/
 │
-├── streamlit_dashboard.py          # Main dashboard application
-├── generate_maps.py                # Script to generate map visualizations
-├── UK_Accidents_Fully_Cleaned.parquet  # Cleaned dataset
-├── requirements.txt                # Python dependencies
-├── Setup.bat                       # Automated setup script
-├── Run_Dashboard.bat              # Dashboard launcher script
+├── streamlit_dashboard.py               # Main dashboard application
+├── generate_maps.py                     # Script to generate map visualizations
+├── UK_Accidents_Fully_Cleaned.parquet   # Cleaned accidents dataset
+├── UK_Vehicles_Fully_Cleaned.parquet    # Cleaned vehicles dataset
+├── requirements.txt                     # Python dependencies
+├── README.md                            # Project documentation
+├── Setup.bat                            # Automated setup script
+├── Run_Dashboard.bat                    # Dashboard launcher script
 │
-└── maps/                          # Pre-generated HTML maps
+└── maps/                                # Pre-generated HTML maps
+    ├── README.md
     ├── density_heatmap.html
     ├── urban_vs_rural_map.html
     ├── urban_rural_chart1_count.html
